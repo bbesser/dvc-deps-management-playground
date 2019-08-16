@@ -1,0 +1,4 @@
+['remote "the_remote"']
+url = s3://dvc-deps-management.bertatcodecentric.de/dvc-deps-management-playground
+[core]
+remote = the_remote
