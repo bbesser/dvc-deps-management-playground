@@ -1,0 +1,14 @@
+md5: c7393ede9a6bb4af6e6a4967819393c2
+cmd: python -B code/train.py
+wdir: .
+deps:
+- md5: 0e2767716702c5c2ec65d021dd25625c.dir
+  path: data
+- md5: 1aa91b7816083b8ff118ae4f1e6ce5a8
+  path: config/train.json
+outs:
+- md5: ec6a1199c4851aa7a009e8a698c83443
+  path: model/model.h5
+  cache: true
+  metric: false
+  persist: false
