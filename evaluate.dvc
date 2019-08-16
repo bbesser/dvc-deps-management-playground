@@ -1,12 +1,14 @@
-md5: 166eefbfa22622881f3d18987735d623
+md5: 29f7a85f2a452bf915a19c1ec181e298
 cmd: python -B code/evaluate.py
 wdir: .
 deps:
-- md5: ec6a1199c4851aa7a009e8a698c83443
+- md5: c780a6ec615d0e70f30611e4e0e2b640
   path: model/model.h5
 outs:
-- md5: 1e7fd3db14f07316d3f86f549c72b708
+- md5: 84a882c72725a71dd76bdb58b2101587
   path: model/metrics.json
   cache: false
-  metric: true
+  metric:
+    type: json
+    xpath: acc
   persist: false

@@ -1,11 +1,11 @@
-md5: ec2a0fa416babf6662670b9f9d8c7770
+md5: be4593379c16d4d44651abfee4b10534
 cmd: python code/load.py
 wdir: .
 deps:
-- md5: 191c2d5e1cfc5bac140469574de28374
+- md5: 132f4ad7b79d2f890d38f403d9626bbb
   path: config/load.json
 outs:
-- md5: 0e2767716702c5c2ec65d021dd25625c.dir
+- md5: dba722bff53e4c81e7abaf00c5dca7e3.dir
   path: data
   cache: true
   metric: false
